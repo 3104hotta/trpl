@@ -1,0 +1,30 @@
+# Cargo / Rust ビルド成果物
+target/
+**/target/
+
+# Cargo.lock はバイナリプロジェクトでは通常コミットするが、
+# 学習用リポジトリでは取り回しやすさを優先して除外する場合もある。
+# 必要に応じて以下のコメントアウトを外す。
+# Cargo.lock
+
+# バックアップ・一時ファイル
+**/*.rs.bk
+*.pdb
+
+# エディタ / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# rust-analyzer
+.rust-analyzer/
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数ファイル
+.env
+.env.local
