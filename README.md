@@ -14,14 +14,31 @@ rust-learning/
 ├── .gitignore
 ├── README.md
 ├── ch01-getting-started/
-├── ch02-guessing-game/                  # プロジェクト系（通常構成）
-└── ch03-common-programming-concepts/    # 概念解説系（src/bin/ 構成）
-    ├── Cargo.toml
-    └── src/
-        ├── main.rs
-        └── bin/
-            ├── 01_variables.rs
-            └── 02_data_types.rs
+├── ch02-guessing-game/                       # プロジェクト系（通常構成）
+├── ch03-common-programming-concepts/         # 概念解説系（src/bin/ 構成）
+│   ├── Cargo.toml
+│   └── src/
+│       ├── main.rs
+│       └── bin/
+│           ├── 01_variables.rs
+│           └── 02_data_types.rs
+├── ch04-understanding-ownership/             # 概念解説系
+├── ch05-using-structs/                       # 概念解説系
+├── ch06-enums-and-pattern-matching/          # 概念解説系
+├── ch07-managing-growing-projects/
+├── ch08-common-collections/                  # 概念解説系
+├── ch09-error-handling/                      # 概念解説系
+├── ch10-generic-types-traits-lifetimes/      # 概念解説系
+├── ch11-writing-automated-tests/
+├── ch12-an-io-project/                       # プロジェクト系
+├── ch13-functional-features/                 # 概念解説系
+├── ch14-more-about-cargo/
+├── ch15-smart-pointers/                      # 概念解説系
+├── ch16-fearless-concurrency/                # 概念解説系
+├── ch17-oop/
+├── ch18-patterns-and-matching/               # 概念解説系
+├── ch19-advanced-features/
+└── ch20-web-server/                          # プロジェクト系
 ```
 
 ### 章タイプの使い分けガイドライン
