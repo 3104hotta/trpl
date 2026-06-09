@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "data_types"
+name = "ch03-common-programming-concepts"
 version = "0.1.0"
