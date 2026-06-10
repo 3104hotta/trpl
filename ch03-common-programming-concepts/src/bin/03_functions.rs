@@ -1,7 +1,8 @@
 fn main() {
-    print_labled_measurement(5, 'h');
-}
+    let y = {
+        let x = 3;
+        x + 1
+    };
 
-fn print_labled_measurement(value: i32, unit_label: char) {
-    println!("The measurement of is: {value}{unit_label}");
+    println!("The value of y is: {y}");
 }
