@@ -5,7 +5,12 @@
 // cargo run -- 01_variables 02_data_types  # → 複数指定可
 use std::process::{Command, exit};
 
-const BINS: &[&str] = &["01_variables", "02_data_types"];
+const BINS: &[&str] = &[
+    "01_variables",
+    "02_data_types",
+    "03_functions",
+    "04_branches",
+];
 
 fn main() {
     let args: Vec<String> = std::env::args().skip(1).collect();
