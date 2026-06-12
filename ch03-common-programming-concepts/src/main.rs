@@ -9,7 +9,8 @@ const BINS: &[&str] = &[
     "01_variables",
     "02_data_types",
     "03_functions",
-    "04_branches",
+    "04_1_branches",
+    "04_2_loops",
 ];
 
 fn main() {
