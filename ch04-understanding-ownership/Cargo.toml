@@ -1,0 +1,7 @@
+[package]
+name = "ch04-understanding-ownership"
+version = "0.1.0"
+edition = "2024"
+default-run = "ch04-understanding-ownership"
+
+[dependencies]
