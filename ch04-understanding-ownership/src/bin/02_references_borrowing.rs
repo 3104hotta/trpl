@@ -16,6 +16,15 @@ fn main() {
     change(&mut s);
 
     println!("{}", s);
+
+    // 宙に浮いた参照
+   　let reference_to_nothing = dangle();
+}
+
+fn dangle() -> String {
+    let s = String::from("hello");
+
+    s
 }
 
 fn calculate_length(s: &String) -> usize {
