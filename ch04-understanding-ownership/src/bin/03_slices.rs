@@ -3,5 +3,21 @@
 // NG例はコメントアウト＋エラー注記で残す。
 
 fn main() {
-    println!("ch04 4.3 スライス型 — ここから書き始める");
+    let mut s = String::from("hello world");
+
+    let word = first_word(&s);
+
+    s.clear();
+}
+
+fn first_word(s: &String) -> usize {
+    let bytes = s.as_bytes();
+
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            return i;
+        }
+    }
+
+    s.len()
 }
